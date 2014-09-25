@@ -22,5 +22,5 @@ Filter page.
 
 - Preview gif:
 
-![Yelp|400](http://i.imgur.com/2MQipjt.gif)
+![Yelp|400](http://i.imgur.com/47d4gA6.gif)
 
