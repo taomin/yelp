@@ -172,7 +172,8 @@ NSString * const kYelpTokenSecret = @"mqtKIxMIR4iBtBPZCmCLEb-Dz3Y";
     tableCell.RestaurantType.text = restaurant[@"categories"][0][0];
     [tableCell.Thumbnail setImageWithURL:[NSURL URLWithString:restaurant[@"image_url"]]];
     [tableCell.RestaurantRating setImageWithURL:[NSURL URLWithString:restaurant[@"rating_img_url"]]];
-    
+    [[tableCell.Thumbnail layer] setCornerRadius:4.0f];
+    [[tableCell.Thumbnail layer] setMasksToBounds:YES];
     return tableCell;
 }
 
