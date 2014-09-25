@@ -22,5 +22,5 @@ Clicking on the "Search" button should dismiss the filters page and trigger the 
 
 - Preview gif:
 
-[Imgur](http://i.imgur.com/2MQipjt.gif)
+![Yelp|350](http://i.imgur.com/2MQipjt.gif)
 
