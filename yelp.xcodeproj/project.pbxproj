@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B758C40519CE30E9000EB1BA /* YelpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B758C40419CE30E9000EB1BA /* YelpClient.m */; };
+		B763F90219CFFA8C00AE40EF /* FilterSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B763F90019CFFA8C00AE40EF /* FilterSwitchCell.m */; };
+		B763F90319CFFA8C00AE40EF /* FilterSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B763F90119CFFA8C00AE40EF /* FilterSwitchCell.xib */; };
+		B7BD0D2719CFA6120080BB5C /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BD0D2519CFA6120080BB5C /* FilterViewController.m */; };
+		B7BD0D2819CFA6120080BB5C /* FilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7BD0D2619CFA6120080BB5C /* FilterViewController.xib */; };
+		B7BD0D2C19CFA9EB0080BB5C /* FilterToggleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BD0D2A19CFA9EB0080BB5C /* FilterToggleCell.m */; };
+		B7BD0D2D19CFA9EB0080BB5C /* FilterToggleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7BD0D2B19CFA9EB0080BB5C /* FilterToggleCell.xib */; };
+		B7D0A5ED19D137C6003AB593 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D0A5EC19D137C6003AB593 /* CoreLocation.framework */; };
 		B7D16C7519CE1A5200178CB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D16C7419CE1A5200178CB2 /* main.m */; };
 		B7D16C7819CE1A5200178CB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D16C7719CE1A5200178CB2 /* AppDelegate.m */; };
-		B7D16C7B19CE1A5200178CB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D16C7A19CE1A5200178CB2 /* ViewController.m */; };
-		B7D16C7E19CE1A5200178CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D16C7C19CE1A5200178CB2 /* Main.storyboard */; };
 		B7D16C8019CE1A5200178CB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D16C7F19CE1A5200178CB2 /* Images.xcassets */; };
 		B7D16C8C19CE1A5200178CB2 /* yelpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D16C8B19CE1A5200178CB2 /* yelpTests.m */; };
+		B7D16C9919CE1AA200178CB2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D16C9719CE1AA200178CB2 /* MainViewController.m */; };
+		B7D16C9A19CE1AA200178CB2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7D16C9819CE1AA200178CB2 /* MainViewController.xib */; };
+		B7D16C9E19CE1E9500178CB2 /* YelpTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D16C9C19CE1E9500178CB2 /* YelpTableViewCell.m */; };
+		B7D16C9F19CE1E9500178CB2 /* YelpTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7D16C9D19CE1E9500178CB2 /* YelpTableViewCell.xib */; };
+		F9518EE0A4A0449B90B535D4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4D79C162A545268DA75A21 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,18 +37,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23FE9CB693334C07BAE64390 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		6E4D79C162A545268DA75A21 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B758C40419CE30E9000EB1BA /* YelpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpClient.m; sourceTree = "<group>"; };
+		B758C40619CE30FE000EB1BA /* YelpClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YelpClient.h; sourceTree = "<group>"; };
+		B763F8FF19CFFA8C00AE40EF /* FilterSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterSwitchCell.h; sourceTree = "<group>"; };
+		B763F90019CFFA8C00AE40EF /* FilterSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterSwitchCell.m; sourceTree = "<group>"; };
+		B763F90119CFFA8C00AE40EF /* FilterSwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterSwitchCell.xib; sourceTree = "<group>"; };
+		B7BD0D2419CFA6120080BB5C /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		B7BD0D2519CFA6120080BB5C /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		B7BD0D2619CFA6120080BB5C /* FilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterViewController.xib; sourceTree = "<group>"; };
+		B7BD0D2919CFA9EB0080BB5C /* FilterToggleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterToggleCell.h; sourceTree = "<group>"; };
+		B7BD0D2A19CFA9EB0080BB5C /* FilterToggleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterToggleCell.m; sourceTree = "<group>"; };
+		B7BD0D2B19CFA9EB0080BB5C /* FilterToggleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterToggleCell.xib; sourceTree = "<group>"; };
+		B7D0A5EC19D137C6003AB593 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		B7D16C6F19CE1A5200178CB2 /* yelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D16C7319CE1A5200178CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7D16C7419CE1A5200178CB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7D16C7619CE1A5200178CB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B7D16C7719CE1A5200178CB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B7D16C7919CE1A5200178CB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B7D16C7A19CE1A5200178CB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B7D16C7D19CE1A5200178CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7D16C7F19CE1A5200178CB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B7D16C8519CE1A5200178CB2 /* yelpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yelpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D16C8A19CE1A5200178CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7D16C8B19CE1A5200178CB2 /* yelpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yelpTests.m; sourceTree = "<group>"; };
+		B7D16C9619CE1AA200178CB2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B7D16C9719CE1AA200178CB2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B7D16C9819CE1AA200178CB2 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		B7D16C9B19CE1E9500178CB2 /* YelpTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YelpTableViewCell.h; sourceTree = "<group>"; };
+		B7D16C9C19CE1E9500178CB2 /* YelpTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YelpTableViewCell.m; sourceTree = "<group>"; };
+		B7D16C9D19CE1E9500178CB2 /* YelpTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YelpTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D0A5ED19D137C6003AB593 /* CoreLocation.framework in Frameworks */,
+				F9518EE0A4A0449B90B535D4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06712FD8BEDA409DB5E73AB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7D0A5EC19D137C6003AB593 /* CoreLocation.framework */,
+				6E4D79C162A545268DA75A21 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B7D16C6619CE1A5200178CB2 = {
 			isa = PBXGroup;
 			children = (
 				B7D16C7119CE1A5200178CB2 /* yelp */,
 				B7D16C8819CE1A5200178CB2 /* yelpTests */,
 				B7D16C7019CE1A5200178CB2 /* Products */,
+				23FE9CB693334C07BAE64390 /* Pods.xcconfig */,
+				06712FD8BEDA409DB5E73AB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +120,13 @@
 		B7D16C7119CE1A5200178CB2 /* yelp */ = {
 			isa = PBXGroup;
 			children = (
+				B7D16C9519CE1A7900178CB2 /* ViewControllers */,
 				B7D16C7619CE1A5200178CB2 /* AppDelegate.h */,
 				B7D16C7719CE1A5200178CB2 /* AppDelegate.m */,
-				B7D16C7919CE1A5200178CB2 /* ViewController.h */,
-				B7D16C7A19CE1A5200178CB2 /* ViewController.m */,
-				B7D16C7C19CE1A5200178CB2 /* Main.storyboard */,
 				B7D16C7F19CE1A5200178CB2 /* Images.xcassets */,
 				B7D16C7219CE1A5200178CB2 /* Supporting Files */,
+				B758C40419CE30E9000EB1BA /* YelpClient.m */,
+				B758C40619CE30FE000EB1BA /* YelpClient.h */,
 			);
 			path = yelp;
 			sourceTree = "<group>";
@@ -116,6 +157,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B7D16C9519CE1A7900178CB2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7D16C9619CE1AA200178CB2 /* MainViewController.h */,
+				B7D16C9719CE1AA200178CB2 /* MainViewController.m */,
+				B7D16C9819CE1AA200178CB2 /* MainViewController.xib */,
+				B7D16C9B19CE1E9500178CB2 /* YelpTableViewCell.h */,
+				B7D16C9C19CE1E9500178CB2 /* YelpTableViewCell.m */,
+				B7D16C9D19CE1E9500178CB2 /* YelpTableViewCell.xib */,
+				B7BD0D2419CFA6120080BB5C /* FilterViewController.h */,
+				B7BD0D2519CFA6120080BB5C /* FilterViewController.m */,
+				B7BD0D2619CFA6120080BB5C /* FilterViewController.xib */,
+				B7BD0D2919CFA9EB0080BB5C /* FilterToggleCell.h */,
+				B7BD0D2A19CFA9EB0080BB5C /* FilterToggleCell.m */,
+				B7BD0D2B19CFA9EB0080BB5C /* FilterToggleCell.xib */,
+				B763F8FF19CFFA8C00AE40EF /* FilterSwitchCell.h */,
+				B763F90019CFFA8C00AE40EF /* FilterSwitchCell.m */,
+				B763F90119CFFA8C00AE40EF /* FilterSwitchCell.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7D16C8F19CE1A5200178CB2 /* Build configuration list for PBXNativeTarget "yelp" */;
 			buildPhases = (
+				AAF0FC92915348C8BF1A061E /* Check Pods Manifest.lock */,
 				B7D16C6B19CE1A5200178CB2 /* Sources */,
 				B7D16C6C19CE1A5200178CB2 /* Frameworks */,
 				B7D16C6D19CE1A5200178CB2 /* Resources */,
+				DEF6D2BD671F425C85529F7B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,8 +261,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7D16C7E19CE1A5200178CB2 /* Main.storyboard in Resources */,
 				B7D16C8019CE1A5200178CB2 /* Images.xcassets in Resources */,
+				B7D16C9F19CE1E9500178CB2 /* YelpTableViewCell.xib in Resources */,
+				B7BD0D2819CFA6120080BB5C /* FilterViewController.xib in Resources */,
+				B763F90319CFFA8C00AE40EF /* FilterSwitchCell.xib in Resources */,
+				B7BD0D2D19CFA9EB0080BB5C /* FilterToggleCell.xib in Resources */,
+				B7D16C9A19CE1AA200178CB2 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,14 +279,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AAF0FC92915348C8BF1A061E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEF6D2BD671F425C85529F7B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B7D16C6B19CE1A5200178CB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7D16C7B19CE1A5200178CB2 /* ViewController.m in Sources */,
 				B7D16C7819CE1A5200178CB2 /* AppDelegate.m in Sources */,
+				B7D16C9919CE1AA200178CB2 /* MainViewController.m in Sources */,
 				B7D16C7519CE1A5200178CB2 /* main.m in Sources */,
+				B758C40519CE30E9000EB1BA /* YelpClient.m in Sources */,
+				B7BD0D2719CFA6120080BB5C /* FilterViewController.m in Sources */,
+				B763F90219CFFA8C00AE40EF /* FilterSwitchCell.m in Sources */,
+				B7BD0D2C19CFA9EB0080BB5C /* FilterToggleCell.m in Sources */,
+				B7D16C9E19CE1E9500178CB2 /* YelpTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,17 +345,6 @@
 			targetProxy = B7D16C8619CE1A5200178CB2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B7D16C7C19CE1A5200178CB2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B7D16C7D19CE1A5200178CB2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B7D16C8D19CE1A5200178CB2 /* Debug */ = {
@@ -329,6 +425,7 @@
 		};
 		B7D16C9019CE1A5200178CB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23FE9CB693334C07BAE64390 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -340,6 +437,7 @@
 		};
 		B7D16C9119CE1A5200178CB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23FE9CB693334C07BAE64390 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -402,6 +500,7 @@
 				B7D16C9119CE1A5200178CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7D16C9219CE1A5200178CB2 /* Build configuration list for PBXNativeTarget "yelpTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +509,7 @@
 				B7D16C9419CE1A5200178CB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

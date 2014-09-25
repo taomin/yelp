@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6206.9" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
+        <capability name="Constraints with attributes relative to the layout margin" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="115" id="KGk-i7-Jjw" customClass="YelpTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="302" height="105"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Restaurant Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mWN-Gd-lw8">
+                        <rect key="frame" x="66" y="8" width="112.5" height="25"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" misplaced="YES" text="Address" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I9p-Ce-2m0">
+                        <rect key="frame" x="66" y="38" width="42.5" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" misplaced="YES" text="Food Type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPT-XU-KJP">
+                        <rect key="frame" x="66" y="78" width="54" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hW4-D3-BxM">
+                        <rect key="frame" x="66" y="56.5" width="84" height="16.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="25G-I8-SK5"/>
+                            <constraint firstAttribute="width" constant="84" id="Nmo-5Q-6eN"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Reviews" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQD-kZ-5qv">
+                        <rect key="frame" x="169" y="54" width="64" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XPf-Em-fZM">
+                        <rect key="frame" x="8" y="13" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="9r8-NR-zgx"/>
+                            <constraint firstAttribute="width" constant="50" id="ZSH-aC-1Lg"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="I9p-Ce-2m0" firstAttribute="top" secondItem="mWN-Gd-lw8" secondAttribute="bottom" constant="5" id="3eY-79-XCi"/>
+                    <constraint firstItem="kPT-XU-KJP" firstAttribute="top" secondItem="hW4-D3-BxM" secondAttribute="bottom" constant="5" id="4X3-6c-W0y"/>
+                    <constraint firstItem="kPT-XU-KJP" firstAttribute="top" secondItem="hW4-D3-BxM" secondAttribute="bottom" constant="5" id="9dq-LX-iKh"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="mWN-Gd-lw8" secondAttribute="trailing" constant="8" id="AVH-5K-hLN"/>
+                    <constraint firstItem="mWN-Gd-lw8" firstAttribute="leading" secondItem="XPf-Em-fZM" secondAttribute="trailing" constant="8" id="B3e-DV-Yqj"/>
+                    <constraint firstItem="I9p-Ce-2m0" firstAttribute="leading" secondItem="XPf-Em-fZM" secondAttribute="trailing" constant="8" id="BfN-2V-2oX"/>
+                    <constraint firstItem="kPT-XU-KJP" firstAttribute="leading" secondItem="XPf-Em-fZM" secondAttribute="trailing" constant="8" id="C4g-ML-oBx"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="hW4-D3-BxM" secondAttribute="trailing" constant="8" id="D1G-Ww-0Yn"/>
+                    <constraint firstItem="kPT-XU-KJP" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" constant="8" id="DTm-zp-XSA"/>
+                    <constraint firstItem="kPT-XU-KJP" firstAttribute="leading" secondItem="XPf-Em-fZM" secondAttribute="trailing" constant="8" id="Dte-YB-CNK"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="kPT-XU-KJP" secondAttribute="trailing" constant="8" id="Eb9-Tz-eN7"/>
+                    <constraint firstItem="I9p-Ce-2m0" firstAttribute="top" secondItem="mWN-Gd-lw8" secondAttribute="bottom" constant="8" id="FnY-NL-ld0"/>
+                    <constraint firstItem="mWN-Gd-lw8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="Hne-Lj-4GZ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="kPT-XU-KJP" secondAttribute="bottom" constant="5" id="IQa-Na-QtE"/>
+                    <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="XPf-Em-fZM" secondAttribute="bottom" constant="8" id="KNZ-LM-OHV"/>
+                    <constraint firstItem="kPT-XU-KJP" firstAttribute="top" secondItem="I9p-Ce-2m0" secondAttribute="bottom" constant="5" id="Lwq-5v-fcB"/>
+                    <constraint firstItem="QQD-kZ-5qv" firstAttribute="leading" secondItem="hW4-D3-BxM" secondAttribute="trailing" constant="8" id="Neb-7v-S7b"/>
+                    <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="kPT-XU-KJP" secondAttribute="bottom" constant="3" id="TOx-ED-gJo"/>
+                    <constraint firstItem="hW4-D3-BxM" firstAttribute="leading" secondItem="XPf-Em-fZM" secondAttribute="trailing" constant="8" id="TU1-1s-wMS"/>
+                    <constraint firstItem="mWN-Gd-lw8" firstAttribute="leading" secondItem="XPf-Em-fZM" secondAttribute="trailing" constant="8" id="V3h-4J-1xZ"/>
+                    <constraint firstItem="I9p-Ce-2m0" firstAttribute="top" secondItem="mWN-Gd-lw8" secondAttribute="bottom" constant="5" id="W35-11-ADP"/>
+                    <constraint firstItem="hW4-D3-BxM" firstAttribute="top" secondItem="I9p-Ce-2m0" secondAttribute="bottom" constant="5" id="blO-fZ-nC0"/>
+                    <constraint firstItem="XPf-Em-fZM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="cvV-Vq-YFy"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="kPT-XU-KJP" secondAttribute="bottom" constant="10" id="dJv-4e-483"/>
+                    <constraint firstItem="I9p-Ce-2m0" firstAttribute="leading" secondItem="XPf-Em-fZM" secondAttribute="trailing" constant="8" id="eFJ-m9-gdI"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="XPf-Em-fZM" secondAttribute="bottom" constant="10" id="egT-Re-y2q"/>
+                    <constraint firstItem="kPT-XU-KJP" firstAttribute="leading" secondItem="XPf-Em-fZM" secondAttribute="trailing" constant="8" id="hhy-ko-Jfg"/>
+                    <constraint firstItem="hW4-D3-BxM" firstAttribute="leading" secondItem="XPf-Em-fZM" secondAttribute="trailing" constant="8" id="i8w-ha-Ojj"/>
+                    <constraint firstItem="kPT-XU-KJP" firstAttribute="top" secondItem="I9p-Ce-2m0" secondAttribute="bottom" constant="8" id="kYf-KF-DT9"/>
+                    <constraint firstItem="mWN-Gd-lw8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="keF-sa-hna"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="QQD-kZ-5qv" secondAttribute="trailing" constant="8" id="mK3-pr-2jg"/>
+                    <constraint firstItem="QQD-kZ-5qv" firstAttribute="top" secondItem="mWN-Gd-lw8" secondAttribute="bottom" constant="23" id="mvc-rE-9sW"/>
+                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="I9p-Ce-2m0" secondAttribute="trailing" constant="8" id="rRT-s8-RAJ"/>
+                    <constraint firstItem="XPf-Em-fZM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="sHQ-mB-bVw"/>
+                    <constraint firstItem="hW4-D3-BxM" firstAttribute="top" secondItem="I9p-Ce-2m0" secondAttribute="bottom" constant="5" id="vKc-Yx-YxO"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="egT-Re-y2q"/>
+                        <exclude reference="Hne-Lj-4GZ"/>
+                        <exclude reference="V3h-4J-1xZ"/>
+                        <exclude reference="3eY-79-XCi"/>
+                        <exclude reference="BfN-2V-2oX"/>
+                        <exclude reference="FnY-NL-ld0"/>
+                        <exclude reference="D1G-Ww-0Yn"/>
+                        <exclude reference="blO-fZ-nC0"/>
+                        <exclude reference="i8w-ha-Ojj"/>
+                        <exclude reference="4X3-6c-W0y"/>
+                        <exclude reference="C4g-ML-oBx"/>
+                        <exclude reference="DTm-zp-XSA"/>
+                        <exclude reference="Dte-YB-CNK"/>
+                        <exclude reference="IQa-Na-QtE"/>
+                        <exclude reference="Lwq-5v-fcB"/>
+                        <exclude reference="dJv-4e-483"/>
+                        <exclude reference="kYf-KF-DT9"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="RestaurantAddr" destination="I9p-Ce-2m0" id="oik-lc-5GJ"/>
+                <outlet property="RestaurantName" destination="mWN-Gd-lw8" id="mvm-Gr-ojV"/>
+                <outlet property="RestaurantRating" destination="hW4-D3-BxM" id="RKi-7F-yxS"/>
+                <outlet property="RestaurantReviews" destination="QQD-kZ-5qv" id="SKM-Qb-Z51"/>
+                <outlet property="RestaurantType" destination="kPT-XU-KJP" id="8fN-ff-41l"/>
+                <outlet property="Thumbnail" destination="XPf-Em-fZM" id="BLa-nT-UQ5"/>
+            </connections>
+            <point key="canvasLocation" x="340" y="430.5"/>
+        </tableViewCell>
+    </objects>
+</document>

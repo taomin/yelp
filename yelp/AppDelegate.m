@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:(200/255.0) green:(50/255.0) blue:(50/255.0) alpha:0.7]];
+    MainViewController *vc = [MainViewController new];
+    UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = nvc;
+    nvc.navigationBar.translucent = YES;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
